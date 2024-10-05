@@ -1,0 +1,75 @@
+
+//		this.fname = new JLabel("First name");
+//		fname.setFont(new Font("Tahoma", Font.PLAIN, 13));
+//		fname.setBounds(339, 201, 65, 30);
+//
+//		this.editButton = new JButton("Edit");
+//		editButton.setFont(new Font("Tahoma", Font.PLAIN, 13));
+//		editButton.setBounds(500, 376, 65, 25);
+//		editButton.addActionListener(new ActionListener() {
+//			public void actionPerformed(ActionEvent e) {
+//				System.out.println("Edit button clicked");
+//			}
+//		});
+
+//		body.add(this.fname);
+//		body.add(editButton);
+//		JLabel lname = new JLabel("Last name");
+//		lname.setFont(new Font("Tahoma", Font.PLAIN, 13));
+//		lname.setBounds(339, 225, 92, 30);
+//		body.add(lname);
+//
+//		JLabel lblUsername = new JLabel("Username");
+//		lblUsername.setFont(new Font("Tahoma", Font.PLAIN, 13));
+//		lblUsername.setBounds(339, 254, 92, 30);
+//		body.add(lblUsername);
+//
+//		JLabel lblEmail = new JLabel("Email");
+//		lblEmail.setFont(new Font("Tahoma", Font.PLAIN, 13));
+//		lblEmail.setBounds(339, 282, 92, 30);
+//		body.add(lblEmail);
+//
+//		JLabel lblPhone = new JLabel("Phone");
+//		lblPhone.setFont(new Font("Tahoma", Font.PLAIN, 13));
+//		lblPhone.setBounds(339, 311, 92, 30);
+//		body.add(lblPhone);
+//
+//		JLabel lblAccountType = new JLabel("Account type");
+//		lblAccountType.setFont(new Font("Tahoma", Font.PLAIN, 13));
+//		lblAccountType.setBounds(339, 339, 92, 30);
+//		body.add(lblAccountType);
+//
+//		JTextField fNameField = new JTextField(user.getFirstName());
+//		fNameField.setEditable(false);
+//		fNameField.setBounds(457, 204, 108, 21);
+//		body.add(fNameField);
+//
+//		lNameField = new JTextField(user.getLastName());
+//		lNameField.setEditable(false);
+//		lNameField.setBounds(457, 231, 108, 21);
+//		body.add(lNameField);
+//
+//		usernameField = new JTextField(user.getUsername());
+//		usernameField.setEditable(false);
+//		usernameField.setBounds(457, 260, 108, 21);
+//		body.add(usernameField);
+//
+//		emailField = new JTextField(user.getEmail());
+//		emailField.setEditable(false);
+//		emailField.setBounds(457, 287, 108, 21);
+//		body.add(emailField);
+//
+//		phoneField = new JTextField(user.getPhone());
+//		phoneField.setEditable(false);
+//		phoneField.setBounds(457, 317, 108, 21);
+//		body.add(phoneField);
+//
+//		typeField = new JTextField(user.getRole());
+//		typeField.setEditable(false);
+//		typeField.setBounds(457, 345, 108, 21);
+//		body.add(typeField);
+//
+//		JLabel lblUserDetails = new JLabel("User details");
+//		lblUserDetails.setFont(new Font("Tahoma", Font.PLAIN, 24));
+//		lblUserDetails.setBounds(280, 125, 124, 62);
+//		body.add(lblUserDetails);
